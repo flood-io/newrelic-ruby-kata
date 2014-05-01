@@ -4,7 +4,7 @@
   <% @num_high.times do |i| -%>
     <% @num_wide.times do |j| -%>
       <% icon = @icons[i*@num_wide + j] -%>
-      <%= image_tag 's.gif', title: icon.web_site.url, class: 'ico<%= icon.id %>' %>
+      <%= image_tag 's.gif', title: icon.web_site.url, class: "ico#{icon.id}" %>
     <% end -%>
     <br>
   <% end %>
