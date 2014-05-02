@@ -16,6 +16,8 @@ gem "pg", ">= 0.14.1"
 
 gem 'queue_classic'
 
+gem 'will_paginate'
+
 group :production do
 end
 
