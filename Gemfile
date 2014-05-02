@@ -14,6 +14,8 @@ gem 'dalli'
 gem 'newrelic_rpm', '>=3.6.8'
 gem "pg", ">= 0.14.1"
 
+gem 'queue_classic'
+
 group :production do
 end
 
