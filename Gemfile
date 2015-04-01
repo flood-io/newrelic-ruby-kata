@@ -21,6 +21,14 @@ end
 
 group :development do
   gem 'RedCloth'
+  gem 'rspec'
+  gem 'flood-capybara', github: 'flood-io/flood-capybara', branch: 'master'
+  gem 'pry'
+end
+
+group :test do
+  gem 'rspec-rails', '~> 3.2.1'
+  gem 'capybara', '>=2.4.4'
 end
 
 gem 'memcachier'
