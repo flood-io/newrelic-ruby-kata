@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/flood-io/flood-capybara.git
-  revision: ba8e7f384fcc9ccc8f42df5cdab8834d14e6983b
+  revision: 063a0d4db605b74b1d7ddb58d61d446fff69ae41
   branch: master
   specs:
     flood-capybara (0.0.2)
