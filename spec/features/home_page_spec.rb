@@ -1,13 +1,6 @@
 require 'spec_helper'
 
 feature 'Naviation' do
-  scenario 'home page' do
-    it 'should visit home' do
-      visit '/'
-      expect(page).to have_content 'New Relic Ruby Kata'
-    end
-  end
-
   scenario 'sub pages' do
     it 'should visit the loop' do
       visit '/loop'
