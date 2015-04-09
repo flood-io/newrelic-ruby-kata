@@ -1,9 +1,9 @@
 GIT
   remote: git://github.com/flood-io/flood-capybara.git
-  revision: 1360d69fb465367533522c1e8195e3c96d7947ea
+  revision: d41fb29e525e1863ff36e326059909a71eede519
   branch: master
   specs:
-    flood-capybara (0.0.3)
+    flood-capybara (0.0.4)
       parser
       rest-client
       thor
